@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, world!";
+    return 0;
+}sudo apt-get update
+sudo apt-get install g++
+g++ helloworld.cpp -o hello
+chmod +x hello
+./hello
+
+git add .
+git commit -m "first file"
+git push origin main
+
